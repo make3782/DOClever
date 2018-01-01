@@ -392,7 +392,7 @@ function convertToJSON(data,obj,info) {
                 {
                     arr=val.split(",");
                 }
-                return "https://dummyimage.com/"+(arr?(arr[0]+"x"+arr[1]+"/"):"600x400/")+Math.round(Math.random()*999);
+                return "http://placehold.it/"+(arr?(arr[0]+"x"+arr[1]+"/"):"600x400/")+Math.round(Math.random()*999);
             }
             else if(str.startsWith("num"))
             {

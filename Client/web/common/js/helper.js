@@ -203,7 +203,7 @@ helper.convertToJSON=function (data,obj,info,run) {
                 {
                     arr=val.split(",");
                 }
-                return "https://dummyimage.com/"+(arr?(arr[0]+"x"+arr[1]+"/"):"600x400/")+Math.round(Math.random()*999);
+                return "http://placehold.it/"+(arr?(arr[0]+"x"+arr[1]+"/"):"600x400/")+Math.round(Math.random()*999);
             }
             else if(/^num/i.test(str))
             {
@@ -1076,7 +1076,7 @@ helper.mock=function (data,info) {
             {
                 arr=val.split(",");
             }
-            return "https://dummyimage.com/"+(arr?(arr[0]+"x"+arr[1]+"/"):"600x400/")+Math.round(Math.random()*999);
+            return "http://placehold.it/"+(arr?(arr[0]+"x"+arr[1]+"/"):"600x400/")+Math.round(Math.random()*999);
         }
         else if(/^num/i.test(str))
         {
